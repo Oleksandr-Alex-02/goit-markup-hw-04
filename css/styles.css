@@ -143,6 +143,7 @@ h4 {
 
 .icon-header {
   margin-right: 10px;
+  fill: currentColor;
 }
 /*конец навигации сайта */
 
@@ -379,6 +380,12 @@ ul {
 .icon {
   width: 170px;
   height: 92px;
+}
+.clients-icon:hover {
+  fill: var(--accent-color);
+}
+.icon:hover {
+  fill: var(--accent-color);
 }
 
 /*                                     mein portfolio.html */
