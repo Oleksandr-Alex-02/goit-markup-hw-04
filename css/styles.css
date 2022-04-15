@@ -82,14 +82,17 @@ h4 {
 
   margin-top: 0;
   margin-bottom: 0;
-  margin-right: 331px;
+  margin-right: 305px;
 
   padding-left: 0;
 }
 
-.nav-item:not(:last-child),
-.contact-item:not(:last-child) {
+.nav-item:not(:last-child) {
   margin-right: 50px;
+}
+
+.contact-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .contact-list {
@@ -122,6 +125,7 @@ h4 {
 
 .contact-item a {
   display: flex;
+  align-items: center;
   padding: 32px 0;
 }
 
@@ -135,6 +139,10 @@ h4 {
 
 .contact-list a {
   color: #757575;
+}
+
+.icon-header {
+  margin-right: 10px;
 }
 /*конец навигации сайта */
 
@@ -206,7 +214,11 @@ ul {
 .icon-benefits {
   width: 270px;
   height: 120px;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
+  padding: 25px 100px;
+
+  background: #f5f4fa;
+  border-radius: 4px;
 }
 
 .list-benefits {
@@ -242,6 +254,7 @@ ul {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
+/* конец особености нашей команды */
 
 /* чем мы занимается наша команда */
 
@@ -302,10 +315,12 @@ ul {
 }
 
 .social-media {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   margin: auto;
   width: 206px;
   height: 44px;
-  padding-bottom: 30px;
 }
 
 .command-img li:not(:last-child) {
@@ -344,10 +359,17 @@ ul {
 
 .clients {
   display: flex;
+  list-style-type: none;
 }
 
 .clients-icon {
   width: 170px;
+  height: 92px;
+
+  text-align: center;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
 }
 
 .clients-icon:not(:last-child) {
@@ -498,4 +520,12 @@ footer a {
 
 .address-contakt {
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer {
+  display: flex;
+}
+
+.social-links {
+  margin-left: 70px;
 }
