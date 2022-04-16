@@ -189,6 +189,7 @@ ul {
   text-align: center;
   background: #2f303a;
   padding: 200px 0px;
+  background-image: url(../images/background.jpg);
 }
 
 .hero h1 {
@@ -309,6 +310,13 @@ ul {
   padding: 0;
 }
 
+.foto {
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
 .command-blok {
   padding-top: 30px;
   padding-bottom: 16px;
@@ -317,12 +325,10 @@ ul {
 
 .social-media {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   margin: auto;
   width: 206px;
-  height: 44px;
   padding-left: 0;
+  padding-bottom: 30px;
 }
 
 .social {
@@ -330,14 +336,21 @@ ul {
   height: 44px;
 }
 
+.social:not(:last-child) {
+  margin-right: 10px;
+}
+
 .a {
-  display: inline-block;
   width: 44px;
   height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: #afb1b8;
 }
 
 .a:hover {
-  fill: #000000;
+  fill: #ffffff;
   background: var(--accent-color);
   border-radius: 50%;
 }
@@ -391,6 +404,11 @@ ul {
   border-radius: 4px;
 }
 
+.clients-icon:hover {
+  border: 1px solid var(--accent-color);
+  fill: var(--accent-color);
+}
+
 .clients-icon:not(:last-child) {
   margin-right: 30px;
 }
@@ -398,6 +416,11 @@ ul {
 .icon {
   width: 170px;
   height: 92px;
+  fill: #afb1b8;
+}
+
+.icon:hover {
+  fill: var(--accent-color);
 }
 
 /*                                     mein portfolio.html */
@@ -545,6 +568,22 @@ footer a {
   display: flex;
 }
 
-.social-links {
+.social-footer {
+  padding-top: 10px;
   margin-left: 70px;
+}
+
+.social-footer h2 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.icob-footer {
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  fill: #ffffff;
 }
