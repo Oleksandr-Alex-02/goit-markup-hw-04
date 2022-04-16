@@ -317,14 +317,32 @@ ul {
 
 .social-media {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   margin: auto;
   width: 206px;
   height: 44px;
+  padding-left: 0;
 }
 
-.command-img li:not(:last-child) {
+.social {
+  width: 44px;
+  height: 44px;
+}
+
+.a {
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+}
+
+.a:hover {
+  fill: #000000;
+  background: var(--accent-color);
+  border-radius: 50%;
+}
+
+.foto:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -380,12 +398,6 @@ ul {
 .icon {
   width: 170px;
   height: 92px;
-}
-.clients-icon:hover {
-  fill: var(--accent-color);
-}
-.icon:hover {
-  fill: var(--accent-color);
 }
 
 /*                                     mein portfolio.html */
