@@ -222,7 +222,6 @@ ul {
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
-  padding: 25px 100px;
 
   background: #f5f4fa;
   border-radius: 4px;
@@ -230,10 +229,14 @@ ul {
 
 .list-benefits {
   display: flex;
-
-  width: 1170px;
   margin: 0;
   padding-left: 0;
+}
+
+.icon-benefits {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .list-benefits li {
@@ -398,14 +401,11 @@ ul {
 .clients {
   display: flex;
   list-style-type: none;
+  margin: 0;
   padding-left: 0;
 }
 
 .clients-icon {
-  width: 170px;
-  height: 92px;
-
-  text-align: center;
   border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
@@ -420,14 +420,17 @@ ul {
   margin-right: 30px;
 }
 
-.icon {
+.icon-compan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 170px;
   height: 92px;
   fill: #afb1b8;
 }
 
-.icon:hover,
-.icon:focus {
+.icon-compan:hover,
+.icon-compan:focus {
   fill: var(--accent-color);
 }
 
